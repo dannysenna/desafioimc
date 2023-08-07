@@ -1,0 +1,78 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("/assets/images/imc.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.titulo{
+    color: rgb(21, 113, 9);
+    font-size: xx-large;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(168, 243, 160);
+}
+
+.subtitulo{
+    color: rgb(21, 113, 9);
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(168, 243, 160);
+}
+
+legend{
+    color: rgb(21, 113, 9);
+    font-size: x-large;
+    font-weight:bold;
+    text-align: left;
+    
+}
+
+.formulario{
+    font-size: x-large;
+    font-weight: bold;
+    width: 90%;
+    display: inline-block;
+    position: relative;
+}
+.conteudo{
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.conteudo2{
+    text-align: left;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.calcular{
+    color: rgb(21, 113, 9);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(168, 243, 160);
+}
+
+.button{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(21, 113, 9);
+    width: 200px;
+    height: 100px;
+    background-color: rgb(168, 243, 160);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(5, 5, 74);
+
+}

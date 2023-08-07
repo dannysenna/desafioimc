@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/css/resultado.css" media="screen">
+    <title>Resultado IMC</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Diagnóstico Prévio</h1>
+    </div>
+    <div class="formulario">
+        <form enctype="multipart/form-data" >
+            <fieldset>
+                <legend>Resultado do seu cálculo de IMC </legend>
+                <div class="conteudo">
+                    Nome: <span id="nome"></span><br>
+                    Sexo: <span id="sexo"></span><br>
+                    Idade: <span id="idade"></span><br>
+                    Altura: <span id="altura"></span><br>
+                    Peso: <span id="peso"></span><br>
+                    Categoria: <span id="categoria"></span><br>
+                    <p>IMC Desejável: <span id="imcDesejavel"></span></p>
+                    <p>Resultado IMC: <span id="imc"></span></p>
+                    <p>Riscos: <span id="risco"></span></p>
+                    <p>Recomendação Inicial: <span id="recomendacao"></span></p>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <button type="submit" class="button" id="voltar" name="voltar" onclick="voltar()"> Voltar para Tela Inicial</button></p>
+    <script src="/assets/js/resultado.js"></script>
+</body>
+</html>
